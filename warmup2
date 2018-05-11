@@ -1,0 +1,8 @@
+public int diff21(int n) {
+  if (n < 21 ) 
+    n = n - 21;
+  else 
+    n = (n - 21) * 2; 
+  
+  return Math.abs(n);
+}
